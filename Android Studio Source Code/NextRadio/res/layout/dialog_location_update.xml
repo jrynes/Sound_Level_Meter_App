@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:padding="20dp" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="0x7f0d0006" android:gravity="11" android:layout_gravity="1" android:id="0x7f0f0090" android:layout_width="-1" android:layout_height="-2" android:text="0x7f070079" />
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+        <LinearLayout android:layout_gravity="11" android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+            <LinearLayout android:orientation="1" android:id="0x7f0f0091" android:paddingTop="20dp" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+                <TextView android:textSize="18sp" android:id="0x7f0f0092" android:layout_width="-1" android:layout_height="-2" android:text="0x7f070087" />
+                <Button android:textSize="16dp" android:textStyle="1" android:textColor="#fff" android:layout_gravity="1" android:id="0x7f0f0025" android:background="0x7f0200c6" android:paddingLeft="3dp" android:paddingRight="3dp" android:layout_width="176dp" android:layout_height="33.6667dp" android:layout_marginTop="14dp" android:text="0x7f070027" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="1" android:id="0x7f0f0016" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+                <TextView android:textSize="17sp" android:id="0x7f0f0017" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:text="0x7f070078" />
+                <Spinner android:layout_gravity="1" android:id="0x7f0f0093" android:layout_width="-1" android:layout_height="-2" />
+                <EditText android:layout_gravity="3" android:id="0x7f0f0019" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:hint="0x7f070073" android:ems="10" android:maxLength="12" android:inputType="1" />
+                <Button android:layout_gravity="1" android:id="0x7f0f0094" android:background="#c0c0c0" android:paddingLeft="20dp" android:paddingRight="20dp" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="0x7f070022" />
+                <FrameLayout android:id="0x7f0f000d" android:layout_width="-1" android:layout_height="60dp" android:layout_marginTop="10dp">
+                    <ProgressBar android:layout_gravity="31" android:id="0x7f0f001f" android:layout_width="-2" android:layout_height="-2" style="?unknown_attr_ref: 1010079" />
+                    <RadioButton android:layout_gravity="1" android:id="0x7f0f001d" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="Some Location, USA" />
+                    <TextView android:textSize="16dp" android:layout_gravity="33" android:id="0x7f0f001e" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="Error Message" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="11" android:orientation="1" android:id="0x7f0f0012" android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+            <TextView android:textSize="18sp" android:gravity="1" android:layout_gravity="1" android:id="0x7f0f0095" android:paddingTop="20dp" android:layout_width="-2" android:layout_height="-2" android:text="0x7f070074" android:singleLine="true" />
+            <ProgressBar android:layout_gravity="1" android:id="0x7f0f0014" android:layout_width="-2" android:layout_height="-2" style="?unknown_attr_ref: 101007a" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:id="0x7f0f0096" android:visibility="0" android:layout_width="-2" android:layout_height="-2">
+        <TextView android:textSize="18dp" android:id="0x7f0f0097" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="0x7f070020" />
+        <TextView android:textSize="18dp" android:id="0x7f0f0098" android:layout_width="-2" android:layout_height="-2" android:text="0x7f070088" />
+        <Button android:textSize="16dp" android:textStyle="1" android:textColor="#fff" android:layout_gravity="1" android:id="0x7f0f0099" android:background="0x7f0200c6" android:paddingLeft="3dp" android:paddingRight="3dp" android:layout_width="-2" android:layout_height="33.6667dp" android:layout_marginTop="14dp" android:text="0x7f0700db" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

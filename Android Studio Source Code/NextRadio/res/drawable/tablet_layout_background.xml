@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item>
+        <shape>
+            <padding android:left="0dp" android:top="0dp" android:right="2dp" android:bottom="0dp" />
+            <solid android:color="#42000000" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:left="0dp" android:top="0dp" android:right="2dp" android:bottom="0dp" />
+            <solid android:color="#42000000" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="0x7f0d0033" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:state_pressed="true" android:drawable="0x7f020106" />
+    <item android:state_checked="true" android:drawable="0x7f020105" />
+    <item android:state_activated="true">
+        <shape>
+            <solid android:color="0x7f0d0026" />
+        </shape>
+    </item>
+    <item>
+        <color android:color="0x7f0d0023" />
+    </item>
+</selector>

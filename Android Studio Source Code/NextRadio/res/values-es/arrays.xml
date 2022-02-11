@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="devices_htc">
+        <item>m7wls</item>
+        <item>jewel</item>
+        <item>t6whl</item>
+        <item>htc_m8whl</item>
+        <item>zaracl</item>
+        <item>k2cl</item>
+        <item>m7spr</item>
+    </string-array>
+    <string-array name="devices_motorola">
+        <item>falcon_.*</item>
+        <item>peregrine</item>
+        <item>surnia_.*</item>
+        <item>condor_.*</item>
+    </string-array>
+    <string-array name="feed_back_types">
+        <item>station-feedback@nextradioapp.zendesk.com,Quiero ver qué canciones están jugando en esta estación,Visual estación Solicitud</item>
+        <item>station-feedback@nextradioapp.zendesk.com,Quiero ver información relacionada con el programa de radio actual, Visual estación Solicitud</item>
+        <item>feedback@nextradioapp.zendesk.com,Tengo algunas preguntas o comentarios, Comentario</item>
+        <item>love@nextradioapp.zendesk.com,Me encanta esta aplicación!, Me encanta esto!</item>
+    </string-array>
+    <string-array name="feedbacklabels">
+        <item>Me gusta!! Enviar comentarios</item>
+        <item>Enviar un error</item>
+        <item>Comentarios en general</item>
+    </string-array>
+    <string-array name="feedbackvalues">
+        <item>"love@nextradioapp.zendesk.com,me encanta esto, ¿Qué le encanta acerca de NextRadio?
+"</item>
+        <item>"bugs@nextradioapp.zendesk.com,encontré un error, ¿qué sucedió? Por favor deme la mayor cantidad de detalles posibles:
+"</item>
+        <item>"feedback@nextradioapp.zendesk.com,Comentario, ¿qué desearía que sepamos?
+"</item>
+    </string-array>
+    <string-array name="nav_more">
+        <item>Salida por parlante</item>
+        <item>Actualizar lista de estación</item>
+        <item>Sintonizador básico</item>
+        <item>Configuraciones</item>
+        <item>Salir</item>
+    </string-array>
+    <string-array name="nav_radioGuide">
+        <item>Mis favoritos</item>
+        <item>Vista en vivo</item>
+        <item>Lista de géneros</item>
+        <item>Lista de frecuencias</item>
+    </string-array>
+    <string-array name="nav_recentActivity">
+        <item>Marcadores</item>
+        <item>Historial</item>
+        <item>Reproducidos recientemente</item>
+    </string-array>
+    <string-array name="stations_spinner">
+        <item>Mis favoritos</item>
+        <item>Al aire ahora</item>
+        <item>Lista de géneros</item>
+        <item>Lista de frecuencias</item>
+    </string-array>
+    <string-array name="stationupdatemodelabels">
+        <item>Automático (predeterminado)</item>
+        <item>Preguntarme</item>
+        <item>Nunca (únicamente manual)</item>
+    </string-array>
+    <string-array name="stationupdatemodevalues">
+        <item>automático</item>
+        <item>preguntar</item>
+        <item>nunca</item>
+    </string-array>
+</resources>

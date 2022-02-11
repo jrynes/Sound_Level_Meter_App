@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="128dp">
+    <ImageView android:id="0x7f0f010c" android:background="#fff" android:layout_width="0x7f0c000e" android:layout_height="0x7f0c000e" android:src="0x7f020093" android:scaleType="1" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <LinearLayout android:gravity="10" android:orientation="0" android:id="0x7f0f010d" android:layout_width="-2" android:layout_height="-2" android:divider="?unknown_attr_ref: 1010214" android:layout_toRightOf="0x7f0f010c" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:showDividers="2" android:dividerPadding="0x7f0c000b">
+        <ImageButton android:id="0x7f0f010e" android:background="?unknown_attr_ref: 101030e" android:padding="0x7f0c000a" android:layout_width="0dp" android:layout_height="0x7f0c0009" android:src="0x7f02002b" android:scaleType="3" android:layout_weight="1.0" />
+        <ImageButton android:id="0x7f0f010f" android:background="?unknown_attr_ref: 101030e" android:padding="0x7f0c000a" android:layout_width="0dp" android:layout_height="0x7f0c0009" android:src="0x7f020029" android:scaleType="3" android:layout_weight="1.0" />
+        <ImageButton android:id="0x7f0f0110" android:background="?unknown_attr_ref: 101030e" android:padding="0x7f0c000a" android:layout_width="0dp" android:layout_height="0x7f0c0009" android:src="0x7f020027" android:scaleType="3" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ImageView android:background="?unknown_attr_ref: 101032c" android:layout_width="-2" android:layout_height="1dp" android:layout_toRightOf="0x7f0f010c" android:layout_above="0x7f0f010d" android:layout_alignParentRight="true" />
+    <ImageButton android:id="0x7f0f0111" android:background="?unknown_attr_ref: 101030e" android:padding="0x7f0c000c" android:layout_width="-2" android:layout_height="-2" android:src="0x7f020026" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <LinearLayout android:layout_gravity="10" android:orientation="1" android:paddingLeft="0x7f0c0010" android:paddingTop="0x7f0c000d" android:layout_width="-1" android:layout_height="-2" android:layout_toLeftOf="0x7f0f0111" android:layout_toRightOf="0x7f0f010c" android:layout_alignParentTop="true">
+        <TextView android:textAppearance="0x7f0b0005" android:id="0x7f0f0112" style="0x7f0b000e" />
+        <TextView android:textAppearance="0x7f0b0004" android:id="0x7f0f0113" style="0x7f0b000e" />
+        <TextView android:textAppearance="0x7f0b0004" android:id="0x7f0f0114" style="0x7f0b000e" />
+    </LinearLayout>
+</RelativeLayout>

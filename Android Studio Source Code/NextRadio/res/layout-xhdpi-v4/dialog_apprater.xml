@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" android:layout_marginRight="10dp" android:layout_marginBottom="5dp">
+    <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:id="@id/textView1" android:layout_width="-2" android:layout_height="-2" android:layout_margin="10dp" android:text="0x7f070043" />
+    <Button android:id="@id/btnRateNextRadio" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="6dp" android:layout_marginTop="5dp" android:layout_marginRight="6dp" android:layout_marginBottom="5dp" android:text="0x7f070045" />
+    <Button android:id="@id/btnRemindMeLater" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="6dp" android:layout_marginTop="5dp" android:layout_marginRight="6dp" android:layout_marginBottom="5dp" android:text="0x7f070046" />
+    <Button android:id="@id/btnNoThanks" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="6dp" android:layout_marginTop="5dp" android:layout_marginRight="6dp" android:layout_marginBottom="5dp" android:text="0x7f070044" />
+</LinearLayout>

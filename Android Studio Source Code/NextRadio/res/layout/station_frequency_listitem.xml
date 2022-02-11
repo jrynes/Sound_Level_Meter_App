@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+    <FrameLayout android:background="0x7f0d0020" android:layout_width="70dp" android:layout_height="70dp">
+        <TextView android:textSize="23dp" android:textStyle="1" android:layout_gravity="11" android:id="0x7f0f013e" android:layout_width="-2" android:layout_height="-2" android:text="107.9" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:layout_gravity="13" android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="9dp" android:layout_marginRight="9dp" android:layout_weight="1.0"
+            <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+                <TextView android:textSize="16dp" android:textStyle="1" android:layout_gravity="30" android:id="0x7f0f013f" android:layout_width="-2" android:layout_height="-2" android:text="WLRK" />
+                <TextView android:textSize="16dp" android:textStyle="0" android:layout_gravity="30" android:id="0x7f0f0140" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="- This is the station name" />
+            </LinearLayout>
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textSize="12dp" android:ellipsize="3" android:id="0x7f0f0141" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp" android:text="Station description goes here asdofmasdpifaosidmf oiasdf psiamdf paism ef" android:maxLines="2" android:minLines="1" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

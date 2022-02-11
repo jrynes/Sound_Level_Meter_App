@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@drawable/back2" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textStyle="1" android:textColor="@color/textColor" android:id="@id/splModeTV" android:background="@drawable/lcd4" android:padding="2px" android:scrollbars="0" android:clickable="false" android:layout_width="-1" android:layout_height="20px" android:layout_marginLeft="10px" android:layout_marginTop="10px" android:layout_marginRight="10px" android:text="FAST" />
+    <TextView android:textSize="80px" android:typeface="2" android:textStyle="1" android:textColor="@color/textColor" android:layout_gravity="5" android:id="@id/splTV" android:background="@drawable/lcd2" android:focusableInTouchMode="false" android:scrollbars="0" android:clickable="false" android:layout_width="-1" android:layout_height="90px" android:layout_marginLeft="10px" android:layout_marginRight="10px" android:layout_marginBottom="10px" android:text="  33.32" android:cursorVisible="false" android:lines="2" />
+    <TableLayout android:id="@id/TableLayout01" android:layout_width="-2" android:layout_height="-2">
+        <TableRow android:id="@id/TableRow01" android:focusable="false" android:clickable="false" android:layout_width="-1" android:layout_height="-2">
+            <Button android:textColor="@color/buttonText" android:ellipsize="1" android:id="@id/splOnOffB" android:focusable="true" android:focusableInTouchMode="true" android:fadingEdge="2000" android:clickable="true" android:layout_width="80px" android:layout_height="70px" android:layout_marginLeft="10px" android:layout_marginTop="20px" android:layout_marginRight="30px" android:layout_marginBottom="10px" android:text="ON" android:cursorVisible="false" android:hapticFeedbackEnabled="false" />
+            <Button android:textColor="@color/buttonText" android:id="@id/splLogB" android:visibility="0" android:layout_width="80px" android:layout_height="70px" android:layout_marginLeft="20px" android:layout_marginTop="20px" android:text="LOG" />
+            <Button android:textColor="@color/buttonText" android:id="@id/splMaxB" android:visibility="0" android:layout_width="80px" android:layout_height="70px" android:layout_marginTop="20px" android:text="MAX" />
+        </TableRow>
+        <TableRow android:id="@id/TableRow02" android:layout_width="-2" android:layout_height="-2">
+            <Button android:id="@id/splModeB" android:visibility="0" android:layout_width="80px" android:layout_height="70px" android:layout_marginLeft="10px" android:layout_marginRight="30px" android:text="SLOW" />
+            <Button android:id="@id/Button03" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:text="Button03" />
+            <Button android:textColor="@color/buttonText" android:id="@id/splCalibB" android:padding="2px" android:visibility="0" android:layout_width="80px" android:layout_height="70px" android:text="CALIB" />
+        </TableRow>
+        <TableRow android:id="@id/TableRow04" android:layout_width="-2" android:layout_height="-2">
+            <Button android:id="@id/Button01" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:text="Button01" />
+        </TableRow>
+        <TableRow android:id="@id/TableRow03" android:layout_width="-2" android:layout_height="-2">
+            <Button android:id="@id/Button02" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:text="Button02" />
+            <ImageButton android:id="@id/splCalibUpB" android:background="@drawable/up" android:visibility="1" android:clickable="true" android:layout_width="80px" android:layout_height="70px" android:adjustViewBounds="true" android:cropToPadding="false" />
+            <ImageButton android:id="@id/splCalibDownB" android:background="@drawable/down" android:visibility="1" android:layout_width="50px" android:layout_height="70px" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

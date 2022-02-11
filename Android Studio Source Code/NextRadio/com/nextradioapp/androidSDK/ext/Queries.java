@@ -1,0 +1,6 @@
+package com.nextradioapp.androidSDK.ext;
+
+public class Queries {
+    public static final String LISTENINGHISTORY_STATIONS = "select \tlisteningHistory._id as _id,\t\t\t\tstations.frequency,\t\t\t\tstations.frequencySubChannel,\t\t\t\tstations.callLetters,\t\t\t\tstations.genre,\t\t\t\tstations.market,\t\t\t\tstations.publicStationID,\t\t\t\tstations.slogan,\t\t\t\tstations.IsFavorite,\t\t\t\tstations.artistList, \t\t\t\tactivityEvents.UFIDIdentifier,\t\t\t\tactivityEvents.itemType,\t\t\t\tactivityEvents.timestamp,\t\t\t\tactivityEvents.artist,\t\t\t\tactivityEvents.album,\t\t\t\tactivityEvents.title,\t\t\t\tactivityEvents.description,\t\t\t\tactivityEvents.imageURL,\t\t\t\tactivityEvents.imageURLHiRes,\t\t\t\tactivityEvents.stationID,\t\t\t\tlisteningHistory.lastheard,\t\t\t\tlisteningHistory._id as listeningHistoryID,\t\t\t\tactivityEvents._id as activityID\t\tfrom listeningHistory \t\tinner join activityEvents  \t\ton listeningHistory.eventID = activityEvents._id \t\tinner join stations  \t\ton stations._id = activityEvents.stationID ";
+    public static final String activityEvents_STATIONS = "select tableName.*,frequency, frequencySubChannel, callLetters, genre, market, endpoint, slogan, stations.IsFavorite, artistList from tableName left outer join stations on stations._id=stationID";
+}

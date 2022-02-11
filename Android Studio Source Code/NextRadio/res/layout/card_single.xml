@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:paddingLeft="0x7f0c0002" android:paddingRight="0x7f0c0002" android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:orientation="1" android:background="#fff" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:id="0x7f0f005c" android:background="0x7f0d0021" android:layout_width="-1" android:layout_height="18dp" />
+        <LinearLayout android:orientation="0" android:id="0x7f0f005d" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+            <LinearLayout android:layout_gravity="10" android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_weight="1.0">
+                <TextView android:textSize="20dp" android:textColor="0x7f0d0026" android:ellipsize="3" android:layout_gravity="10" android:id="0x7f0f005e" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:text="Example "Single" Card" android:singleLine="true" />
+                <TextView android:ellipsize="3" android:id="0x7f0f005f" android:layout_width="-2" android:layout_height="-2" android:text="Subtitle" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="0x1060000" android:layout_width="-1" android:layout_height="1dp" />
+    <LinearLayout android:orientation="1" android:id="0x7f0f0060" android:layout_width="-1" android:layout_height="-2" />
+    <LinearLayout android:orientation="1" android:id="0x7f0f0061" android:background="#fff" android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="18dp" /> />

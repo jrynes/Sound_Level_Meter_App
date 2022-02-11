@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout sothree:gravity="30" sothree:orientation="1" sothree:layout_width="-1" sothree:layout_height="-1">
+    <android.support.v4.widget.DrawerLayout android:id="0x7f0f0027" android:layout_width="-1" android:layout_height="-1">
+        <com.sothree.slidinguppanel.SlidingUpPanelLayout android:gravity="30" android:id="0x7f0f0033" android:layout_width="-1" android:layout_height="-1" android:panelHeight="0x7f0c0011" android:shadowHeight="0x7f0c0012">
+            <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+                <FrameLayout android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+                    <LinearLayout android:orientation="1" android:id="0x7f0f0034" android:layout_width="-1" android:layout_height="-1" />
+                    <View android:layout_gravity="50" android:background="#333" android:layout_width="-1" android:layout_height="3dp" android:layout_alignParentTop="true" android:layout_centerVertical="true" />
+                </FrameLayout>
+                <FrameLayout android:id="0x7f0f002a" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" />
+            </LinearLayout>
+            <fragment android:name="com.nextradioapp.nextradio.fragments.NowPlayingBarFragment_" android:id="0x7f0f002b" android:layout_width="-1" android:layout_height="-1" />
+        </com.sothree.slidinguppanel.SlidingUpPanelLayout>
+        <fragment android:name="com.nextradioapp.nextradio.fragments.NavigationDrawerFragment_" android:layout_gravity="800003" android:id="0x7f0f0030" android:layout_width="0x7f0c0003" android:layout_height="-1" />
+    </android.support.v4.widget.DrawerLayout>
+</LinearLayout>

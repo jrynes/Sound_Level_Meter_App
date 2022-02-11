@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="0x7f0700a4" android:key="developer_options" android:summary="0x7f0700a5">
+    <CheckBoxPreference android:title="Emulated mode" android:key="btnSwitchToEmulatedMode" android:defaultValue="false" android:summaryOn="Emulated Mode On" android:summaryOff="Emulated Mode Off" />
+    <EditTextPreference android:title="API URL Override" android:key="apiurl" android:summary="API URL Override" android:defaultValue="http://api.tagstation.com/" android:dialogTitle="API URL Override" android:positiveButtonText="Save" />
+    <Preference android:title="Reset All Data" android:key="reset" android:summary="Resets the application and removes all data" />
+    <Preference android:title="Anonymous TagStation ID" android:key="deviceID" />
+    <EditTextPreference android:title="Ad Group ID" android:key="adGroup" android:defaultValue="" />
+    <EditTextPreference android:title="Caching ID" android:key="cachingID" android:defaultValue="" />
+    <Preference android:title="Start Automated Device Tester" android:key="btnStartTester" />
+    <CheckBoxPreference android:title="Demo Stations" android:key="DemoStationsAllowed" android:defaultValue="false" />
+    <CheckBoxPreference android:title="Enable Pinsight Ads" android:key="enablepinsight" android:summary="Enable Pinsight Media Ads on Station Guide and Activity tabs" android:defaultValue="true" />
+    <EditTextPreference android:title="MQ Heartbeat" android:key="mq_heartbeat" android:defaultValue="50" android:dialogTitle="MQ Heartbeat " android:dialogMessage="MQ Heartbeat in seconds" android:positiveButtonText="OK" android:negativeButtonText="Cancel" />
+    <ListPreference android:entries="0x7f08000b" android:title="Selected Device Country" android:key="country" android:entryValues="0x7f08000c" />
+</PreferenceScreen>

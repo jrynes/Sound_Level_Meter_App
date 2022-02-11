@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="0x7f0d0033" android:layout_width="-1" android:layout_height="-1" android:layout_margin="10dp">
+    <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textStyle="1" android:textColor="0x7f0d0006" android:id="0x7f0f0133" android:padding="5dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="Scroll for more" android:layout_marginStart="10dp" />
+    <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="0x7f0d0006" android:id="0x7f0f0134" android:padding="3dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="25dp" android:text="- Local concert info" android:layout_marginStart="25dp" />
+    <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="0x7f0d0006" android:id="0x7f0f0135" android:padding="3dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="25dp" android:text="- Recently played songs" android:layout_marginStart="25dp" />
+    <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="0x7f0d0006" android:id="0x7f0f0136" android:padding="3dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="25dp" android:text="- Radio show info" android:layout_marginStart="25dp" />
+    <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="0x7f0d0006" android:id="0x7f0f0137" android:padding="3dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="25dp" android:text="- More!" android:layout_marginStart="25dp" />
+    <ImageView android:background="0x7f0d0023" android:layout_width="-1" android:layout_height="1dp" android:layout_marginTop="10dp" />
+    <Button android:textStyle="1" android:textColor="0x7f0d0026" android:id="0x7f0f0138" android:background="0x7f02002f" android:layout_width="-1" android:layout_height="-2" android:text="Got it!" />
+</LinearLayout>

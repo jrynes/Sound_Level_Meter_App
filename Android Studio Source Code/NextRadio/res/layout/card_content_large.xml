@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:id="@id/imageView" android:background="#fff" android:layout_width="100dp" android:layout_height="100dp" android:src="0x7f020093" />
+        <FrameLayout android:background="0x7f020025" android:layout_width="-1" android:layout_height="-1">
+            <LinearLayout android:layout_gravity="10" android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp">
+                <TextView android:textSize="16sp" android:textStyle="1" android:textColor="#333" android:id="0x7f0f003d" android:layout_width="-2" android:layout_height="-2" android:text="New Text" />
+                <TextView android:textSize="14dp" android:textColor="#333" android:ellipsize="4" android:id="0x7f0f003e" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-2" android:layout_height="-2" android:text="New Text" android:maxLines="2" android:scrollHorizontally="true" android:marqueeRepeatLimit="-1" />
+                <TextView android:textSize="14dp" android:textColor="#666" android:id="0x7f0f003f" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="New Text" android:maxLines="2" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <View android:background="0x1060000" android:layout_width="-1" android:layout_height="1dp" />
+</LinearLayout>

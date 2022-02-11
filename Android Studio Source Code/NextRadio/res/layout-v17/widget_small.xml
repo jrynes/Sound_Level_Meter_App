@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="0x7f02001c" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="0" android:id="0x7f0f015b" android:layout_width="-1" android:layout_height="-1">
+        <ImageView android:layout_gravity="10" android:id="0x7f0f015c" android:background="0x7f0d0033" android:layout_width="-1" android:layout_height="-1" android:src="0x7f020093" android:scaleType="6" android:layout_weight="2.2" />
+        <RelativeLayout android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.0">
+            <ImageView android:id="0x7f0f0166" android:padding="5dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:src="0x7f0200bd" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="5dp" android:layout_alignParentEnd="true" />
+            <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+                <RelativeLayout android:layout_gravity="10" android:orientation="1" android:id="0x7f0f0167" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp" android:layout_weight="1.0">
+                    <TextView android:id="0x7f0f0168" android:layout_width="-2" android:layout_height="1dp" android:layout_centerVertical="true" />
+                    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="35dp" android:layout_above="0x7f0f0168" android:layout_marginStart="10dp" android:layout_marginEnd="35dp">
+                        <TextView android:textSize="12sp" android:textStyle="0" android:textColor="0x7f0d0023" android:id="0x7f0f00cc" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" />
+                        <TextView android:textSize="12sp" android:textStyle="0" android:textColor="0x7f0d0023" android:ellipsize="3" android:id="0x7f0f015d" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" />
+                    </LinearLayout>
+                    <TextView android:textSize="12sp" android:textStyle="1" android:textColor="0x7f0d0033" android:ellipsize="3" android:id="0x7f0f015e" android:focusable="true" android:focusableInTouchMode="true" android:duplicateParentState="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="35dp" android:maxLines="1" android:lines="1" android:singleLine="true" android:layout_below="0x7f0f0168" android:marqueeRepeatLimit="-1" android:layout_marginStart="10dp" android:layout_marginEnd="35dp">
+                        <requestFocus android:focusable="true" android:focusableInTouchMode="true" android:duplicateParentState="true" />
+                    </TextView>
+                </RelativeLayout>
+                <ImageView android:background="?unknown_attr_ref: 101032c" android:layout_width="-1" android:layout_height="1dp" />
+                <LinearLayout android:orientation="0" android:id="0x7f0f0169" android:layout_width="-1" android:layout_height="30dp">
+                    <ImageView android:layout_gravity="10" android:id="0x7f0f00dc" android:padding="5dp" android:layout_width="0dp" android:layout_height="-1" android:src="0x7f02002b" android:scaleType="5" android:layout_weight="1.0" />
+                    <ImageView android:layout_gravity="10" android:id="0x7f0f0163" android:padding="5dp" android:visibility="2" android:layout_width="0dp" android:layout_height="-1" android:src="0x7f02002d" android:scaleType="5" android:layout_weight="1.0" />
+                    <ImageView android:layout_gravity="10" android:id="0x7f0f0164" android:padding="5dp" android:visibility="2" android:layout_width="0dp" android:layout_height="-1" android:src="0x7f02002e" android:scaleType="5" android:layout_weight="1.0" />
+                    <ImageView android:layout_gravity="10" android:id="0x7f0f0165" android:padding="5dp" android:layout_width="0dp" android:layout_height="-1" android:src="0x7f02002a" android:scaleType="5" android:layout_weight="1.0" />
+                    <ImageView android:layout_gravity="10" android:id="0x7f0f00df" android:padding="5dp" android:layout_width="0dp" android:layout_height="-1" android:src="0x7f020027" android:scaleType="5" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:layout_gravity="1" android:orientation="1" android:id="0x7f0f00a8" android:background="0x7f0d0033" android:padding="10dp" android:layout_width="330dp" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textStyle="1" android:textColor="0x7f0d0007" android:gravity="1" android:layout_gravity="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="25dp" android:text="0x7f07004e" />
+        <LinearLayout android:gravity="11" android:layout_gravity="11" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20dp">
+            <TextView android:textSize="12sp" android:textStyle="1" android:gravity="11" android:layout_gravity="11" android:id="0x7f0f00a9" android:padding="5dp" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5dp" android:text="0x7f07006f" />
+            <Switch android:id="0x7f0f00aa" android:background="0x7f0200cc" android:visibility="0" android:layout_width="-2" android:layout_height="40dp" android:checked="false" android:textOn="" android:textOff="" android:thumb="0x7f0200fa" android:track="0x7f0200cc" android:switchMinWidth="80dp" />
+            <ToggleButton android:id="0x7f0f00ab" android:background="0x7f0200fc" android:visibility="2" android:layout_width="-2" android:layout_height="40dp" android:checked="false" android:textOn="" android:textOff="" android:switchMinWidth="80dp" />
+            <TextView android:textSize="12sp" android:textStyle="1" android:gravity="11" android:id="0x7f0f00ac" android:padding="5dp" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5dp" android:text="0x7f0700a2" />
+        </LinearLayout>
+        <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textStyle="1" android:textColor="0x7f0d0020" android:gravity="11" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="15dp" android:text="0x7f070101" />
+        <Button android:textAppearance="?unknown_attr_ref: 1010042" android:textStyle="1" android:textColor="0x7f0d0033" android:layout_gravity="11" android:id="0x7f0f00ad" android:background="0x7f0200cb" android:padding="5dp" android:layout_width="100dp" android:layout_height="40dp" android:layout_marginTop="25dp" android:layout_marginBottom="10dp" android:text="0x7f07006a" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="splModeTV">false</item>
+    <item type="id" name="splTV">false</item>
+    <item type="id" name="TableLayout01">false</item>
+    <item type="id" name="TableRow01">false</item>
+    <item type="id" name="splOnOffB">false</item>
+    <item type="id" name="splLogB">false</item>
+    <item type="id" name="splMaxB">false</item>
+    <item type="id" name="TableRow02">false</item>
+    <item type="id" name="splModeB">false</item>
+    <item type="id" name="Button03">false</item>
+    <item type="id" name="splCalibB">false</item>
+    <item type="id" name="TableRow04">false</item>
+    <item type="id" name="Button01">false</item>
+    <item type="id" name="TableRow03">false</item>
+    <item type="id" name="Button02">false</item>
+    <item type="id" name="splCalibUpB">false</item>
+    <item type="id" name="splCalibDownB">false</item>
+</resources>

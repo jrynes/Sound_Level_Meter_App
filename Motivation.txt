@@ -1,0 +1,10 @@
+Business reasons
+1. People don't want to talk to other people anymore. You would rather buy it on Amazon then go to a store. 
+2. More people are likely to want to spend less money and get a quick summary of what can be done based on the information they provide.
+3. They feel like they are in control, because in a way they are. 
+
+Acoustic reasons
+1. Measure noise levels in a space over period of time when we can't phyiscally be there. 
+2. Measure impulse response via hand clap when we can't be there
+
+Analysis can be done ANYWHERE. This could be a HUGE deal as many small jobs could be more fun than a small number of large jobs.

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+    <FrameLayout android:background="#fff" android:layout_width="70dp" android:layout_height="70dp">
+        <com.nextradioapp.nextradio.views.Banner android:id="0x7f0f0143" android:layout_width="-1" android:layout_height="-1" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="9dp" android:layout_marginRight="9dp">
+        <LinearLayout android:layout_gravity="10" android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_weight="1.0"
+            <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+                <TextView android:textSize="16dp" android:textStyle="1" android:layout_gravity="30" android:id="0x7f0f0144" android:layout_width="-2" android:layout_height="-2" android:text="WLRK" android:singleLine="true" />
+                <TextView android:textSize="16dp" android:textStyle="0" android:layout_gravity="30" android:id="0x7f0f00ec" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="- " />
+                <TextView android:textSize="16dp" android:textStyle="0" android:layout_gravity="30" android:id="0x7f0f0145" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="" android:singleLine="true" />
+            </LinearLayout>
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textSize="12dp" android:ellipsize="3" android:id="0x7f0f0146" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4dp" android:text="Station description goes here" android:maxLines="2" android:minLines="1" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

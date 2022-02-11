@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:"http://schemas.android.com/apk/res/android" android:versionCode="1123" android:versionName="2.0.1123-release" package="com.nextradioapp.nextradio" platformBuildVersionCode="23" platformBuildVersionName="6.0-2704002">
+    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="23" />
+    <permission android:name="com.nextradioapp.nextradio.permission.C2D_MESSAGE" android:protectionLevel="signature|signatureOrSystem" />
+    <uses-permission android:name="com.nextradioapp.nextradio.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.motorola.android.permission.USEFMRADIO" />
+    <uses-permission android:name="android.permission.ACCESS_FM_RECEIVER" />
+    <uses-permission android:name="android.permission.ACCESS_FM_RADIO" />
+    <supports-screens android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:xlargeScreens="true" />
+    <uses-feature android:glEsVersion="20000" android:required="true" />
+    <application android:theme="0x7f0b0007" android:label="0x7f070042" android:icon="0x7f0200a8" android:name="com.nextradioapp.nextradio.NextRadioApplication" android:allowBackup="true" android:logo="0x7f0200af">
+        <uses-library android:name="org.nablabs.libFmRadioImpl.FmRadio" android:required="false" />
+        <meta-data android:name="com.google.android.gms.version" android:value="0x7f0a0001" />
+        <meta-data android:name="com.crashlytics.ApiKey" android:value="e4888a5bd786dc8332007c7ff47c3374b2313aa0" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar" android:label="0x7f070042" android:name="com.nextradioapp.nextradio.activities.SplashScreen" android:launchMode="singleTop" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:label="0x7f070042" android:name="com.nextradioapp.nextradio.activities.StationsActivity_" android:launchMode="singleTask" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.nextradioapp.nextradio.ACTION_VIEW_NOWPLAYING" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="0x7f0b0007" android:label="0x7f070042" android:name="com.nextradioapp.nextradio.activities.TabletFragContainerActivity_" android:launchMode="singleTask" android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="com.nextradioapp.nextradio.ACTION_VIEW_NOWPLAYING" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="0x7f0b0007" android:label="0x7f07002c" android:name="com.nextradioapp.nextradio.activities.PrefActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.nextradioapp.nextradio.test.AutomatedTestActivity" android:launchMode="singleTask" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="com.nextradioapp.nextradio.activities.TermsAndPrivacyActivity" android:launchMode="singleTop" android:screenOrientation="portrait" android:noHistory="true" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar" android:label="0x7f0700f1" android:name="com.nextradioapp.androidSDK.activities.BarCodeActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar" android:label="0x7f0700f1" android:name="com.nextradioapp.nextradio.activities.AcquireLocationActivity_" android:screenOrientation="portrait" android:windowSoftInputMode="10" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar" android:label="0x7f0700f1" android:name="com.nextradioapp.nextradio.activities.RadioNotSupportedActivity_" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar" android:label="0x7f0700f4" android:name="com.nextradioapp.nextradio.activities.NewTutorialActivity" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="com.onelouder.adlib.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:hardwareAccelerated="true" />
+        <activity android:theme="@*android:style/Theme.Dialog" android:name="com.onelouder.adlib.AdDialog" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="com.admarvel.android.ads.AdMarvelActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="com.admarvel.android.ads.AdMarvelVideoActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" />
+        <activity android:name="com.pinsightmediaplus.advertising.PsmClickAdActivity" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <provider android:name="com.admarvel.android.ads.AdMarvelLocalFileContentProvider" android:exported="false" android:authorities="com.nextradioapp.nextradio.AdMarvelLocalFileContentProvider" />
+        <activity android:theme="@*android:style/Theme.Translucent" android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        <service android:name="com.nextradioapp.nextradio.services.UIService_" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="com.nextradioapp.nextradio.ACTION_NEWFREQ" />
+                <action android:name="com.nextradioapp.nextradio.ACTION_POWEREDOFF" />
+                <action android:name="com.nextradioapp.nextradio.ACTION_TRANSITIONING" />
+                <action android:name="com.nextradioapp.nextradio.ACTION_WIDGETUPDATE" />
+            </intent-filter>
+        </service>
+        <service android:name="com.nextradioapp.nextradio.services.RadioAdapterService_" android:enabled="true" android:exported="false">
+            <intent-filter>
+                <action android:name="com.nextradioapp.nextradio.action.PLAYPAUSE" />
+                <action android:name="com.nextradioapp.nextradio.action.PLAY" />
+                <action android:name="com.nextradioapp.nextradio.action.STOP" />
+                <action android:name="com.nextradioapp.nextradio.action.TUNE" />
+                <action android:name="com.nextradioapp.nextradio.action.SEEKUP" />
+                <action android:name="com.nextradioapp.nextradio.action.SEEKDOWN" />
+                <action android:name="com.nextradioapp.nextradio.action.SET_FREQ" />
+                <action android:name="com.nextradioapp.nextradio.action.TOGGLE_SPEAKER_OUTPUT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.mediatek.fmradio.FmRadioService" android:enabled="true" android:exported="false" android:process=":BluFMService">
+            <intent-filter>
+                <action android:name="com.mediatek.fmradio.IFmRadioService" />
+            </intent-filter>
+        </service>
+        <receiver android:name="com.nextradioapp.nextradio.receivers.MusicIntentReceiver">
+            <intent-filter>
+                <action android:name="android.media.AUDIO_BECOMING_NOISY" />
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.nextradioapp.nextradio.widgetnotifications.Widget2RowsLarge">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="0x7f050005" />
+        </receiver>
+        <receiver android:name="com.nextradioapp.nextradio.widgetnotifications.Widget2Rows">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="0x7f050006" />
+        </receiver>
+        <receiver android:name="com.nextradioapp.nextradio.widgetnotifications.Widget2RowsSmall">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="0x7f050007" />
+        </receiver>
+        <receiver android:name="com.nextradioapp.nextradio.receivers.LocationReceiver" />
+        <receiver android:name="com.nextradioapp.nextradio.receivers.LocationBootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.google.android.gms.analytics.AnalyticsReceiver" android:enabled="true" android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.android.gms.analytics.AnalyticsService" android:enabled="true" android:exported="false" />
+        <receiver android:name="com.google.android.gms.analytics.CampaignTrackingReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.android.gms.analytics.CampaignTrackingService" />
+        <receiver android:name="com.nextradioapp.nextradio.services.HeadsetStateReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.HEADSET_PLUG" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.google.android.gms.gcm.GcmReceiver" android:permission="com.google.android.c2dm.permission.SEND" android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="com.nextradioapp.nextradio" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.nextradioapp.nextradio.MyGcmListenerService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+        <service android:name="com.nextradioapp.nextradio.MyInstanceIDListenerService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID" />
+            </intent-filter>
+        </service>
+        <service android:name="com.nextradioapp.nextradio.RegistrationIntentService" android:exported="false" />
+        <provider android:name="com.google.android.gms.measurement.AppMeasurementContentProvider" android:exported="false" android:authorities="com.nextradioapp.nextradio.google_measurement_service" />
+        <receiver android:name="com.google.android.gms.measurement.AppMeasurementReceiver" android:enabled="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.measurement.UPLOAD" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.android.gms.measurement.AppMeasurementService" android:enabled="true" android:exported="false" />
+        <activity android:theme="0x7f0b0011" android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity" />
+    </application>
+</manifest>

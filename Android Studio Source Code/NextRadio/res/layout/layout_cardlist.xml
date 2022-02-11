@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="31" android:orientation="1" android:id="0x7f0f00c2" android:paddingLeft="18dp" android:paddingRight="18dp" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.0">
+    <ViewAnimator android:id="0x7f0f007b" android:layout_width="-1" android:layout_height="-2" android:measureAllChildren="false">
+        <include android:id="0x7f0f0103" android:layout_width="-1" android:layout_height="-2" layout="0x7f03000d" />
+        <include android:id="0x7f0f0104" android:layout_width="-1" android:layout_height="-2" layout="0x7f03000d" />
+    </ViewAnimator>
+</LinearLayout>

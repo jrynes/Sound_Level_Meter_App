@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <ScrollView android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+            <TableLayout android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp">
+                <TableRow android:id="0x7f0f00ca" android:layout_width="-2" android:layout_height="-2">
+                    <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:id="0x7f0f00cb" android:layout_width="-2" android:layout_height="-2" android:text="Freq:" />
+                    <TextView android:id="0x7f0f00cc" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="empty" android:layout_weight="1.0" />
+                    <Button android:id="0x7f0f00cd" android:layout_width="-2" android:layout_height="-2" android:minHeight="10dp" android:text="Get Freq" />
+                </TableRow>
+                <TableRow android:id="0x7f0f00ce" android:layout_width="-2" android:layout_height="-2">
+                    <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:id="0x7f0f0017" android:layout_width="-2" android:layout_height="-2" android:text="RDS RT:" />
+                    <TextView android:id="0x7f0f00cf" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="empty" />
+                </TableRow>
+                <TableRow android:id="0x7f0f00d0" android:layout_width="-2" android:layout_height="-2">
+                    <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:id="0x7f0f0024" android:layout_width="-2" android:layout_height="-2" android:text="RDS PS:" />
+                    <TextView android:id="0x7f0f00d1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="empty" />
+                </TableRow>
+                <TableRow android:id="0x7f0f00d2" android:layout_width="-2" android:layout_height="-2">
+                    <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:id="0x7f0f00d3" android:layout_width="-2" android:layout_height="-2" android:text="RDS PI:" />
+                    <TextView android:id="0x7f0f00d4" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="empty" />
+                </TableRow>
+                <TableRow android:id="0x7f0f00d5" android:layout_width="-2" android:layout_height="-2">
+                    <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:id="0x7f0f00d6" android:layout_width="-2" android:layout_height="-2" android:text="RDS AF:" />
+                    <TextView android:id="0x7f0f00d7" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="empty" />
+                </TableRow>
+                <TableRow android:id="0x7f0f00d8" android:layout_width="-2" android:layout_height="-2">
+                    <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:id="0x7f0f00d9" android:layout_width="-2" android:layout_height="-2" android:text="SigStrength:" />
+                    <TextView android:id="0x7f0f00da" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="empty" />
+                </TableRow>
+            </TableLayout>
+            <LinearLayout android:id="@id/LinearLayout1" android:layout_width="-1" android:layout_height="-2">
+                <Button android:layout_gravity="3" android:id="0x7f0f00db" android:layout_width="0dp" android:layout_height="-1" android:text="Turn On" android:layout_weight="1.0" />
+                <Button android:layout_gravity="3" android:id="0x7f0f00dc" android:layout_width="0dp" android:layout_height="-1" android:minWidth="32dp" android:text="<<" android:layout_weight="1.0" />
+                <Button android:id="0x7f0f00dd" android:layout_width="0dp" android:layout_height="-1" android:minWidth="32dp" android:text="<" android:layout_weight="1.0" />
+                <Button android:layout_gravity="33" android:id="0x7f0f00de" android:layout_width="0dp" android:layout_height="-1" android:minWidth="32dp" android:text=">" android:layout_weight="1.0" />
+                <Button android:layout_gravity="33" android:id="0x7f0f00df" android:layout_width="0dp" android:layout_height="-1" android:minWidth="32dp" android:text=">>" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0px" android:layout_height="-2" />
+            <LinearLayout android:layout_width="-1" android:layout_height="-2">
+                <EditText android:id="0x7f0f00e0" android:layout_width="110dp" android:layout_height="-2" android:text="87700" android:ems="10" android:layout_weight="1.0" android:inputType="2" />
+                <Button android:id="0x7f0f00e1" android:layout_width="-2" android:layout_height="-2" android:text="Tune" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+                <Button android:id="0x7f0f00e2" android:layout_width="0dp" android:layout_height="-1" android:text="Speaker" android:layout_weight="1.0" />
+                <Button android:id="0x7f0f00e3" android:layout_width="0dp" android:layout_height="-1" android:text="Headset" android:layout_weight="1.0" />
+                <Button android:id="0x7f0f00e4" android:layout_width="0dp" android:layout_height="-1" android:text="Mute" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+                <Button android:id="0x7f0f00e5" android:layout_width="0dp" android:layout_height="-1" android:text="AudioFocus-Loss" android:layout_weight="1.0" />
+                <Button android:id="0x7f0f00e6" android:layout_width="0dp" android:layout_height="-1" android:text="AudioFocus-Transient" android:layout_weight="1.0" />
+            </LinearLayout>
+            <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:id="0x7f0f00e7" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="Callback Event Log:" />
+            <ScrollView android:id="0x7f0f00e8" android:layout_width="-1" android:layout_height="-2">
+                <LinearLayout android:layout_width="-1" android:layout_height="-1">
+                    <TextView android:id="0x7f0f00e9" android:layout_width="-1" android:layout_height="158dp" android:text="empty" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

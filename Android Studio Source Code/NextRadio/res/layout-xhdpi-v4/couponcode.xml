@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="#ffffff" android:layout_width="-1" android:layout_height="-1">
+    <ImageView android:layout_gravity="7" android:id="@id/imgCode" android:layout_width="-1" android:layout_height="-2" android:layout_margin="7dp" android:src="0x7f0200a5" android:scaleType="3" android:layout_weight="1.0" />
+    <ImageView android:id="@id/imageView3" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="12dp" android:src="0x7f020102" android:scaleType="1" />
+    <LinearLayout android:orientation="1" android:id="@id/LinearLayout1" android:layout_width="-1" android:layout_height="-2" android:layout_margin="18dp">
+        <TextView android:textSize="22sp" android:textStyle="1" android:textColor="#33b5e5" android:ellipsize="3" android:id="@id/lblCodeHeader" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="5dp" android:text="!FREE ASSEMBLY FOR HOME GRILLS" />
+        <LinearLayout android:id="@id/linearLayout1" android:layout_width="-1" android:layout_height="-2" android:baselineAligned="true">
+            <ImageView android:id="@id/imgSecondaryImage" android:visibility="0" android:layout_width="53.3333dp" android:layout_height="53.3333dp" android:src="0x7f0200a5" android:scaleType="3" android:layout_weight="0.0" />
+            <LinearLayout android:orientation="1" android:id="@id/linearlayout4" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_weight="1.0">
+                <TextView android:textSize="12sp" android:textColor="#444" android:layout_gravity="30" android:id="@id/lblCodeLegalText" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="5dp" android:text="Small TextSmall TextSmall TextSmall Text Small a Text Small Text" android:layout_weight="0.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="14sp" android:textStyle="1" android:textColor="#222" android:id="@id/lblExpires" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="Expires 1/2/2012" android:layout_weight="0.0" />
+    </LinearLayout>
+</LinearLayout>

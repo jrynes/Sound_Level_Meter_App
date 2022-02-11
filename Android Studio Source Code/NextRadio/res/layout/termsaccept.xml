@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="11" android:orientation="1" android:background="0x7f0d0006" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textSize="30dp" android:textStyle="1" android:textColor="0x7f0d0033" android:layout_gravity="1" android:id="0x7f0f0148" android:layout_width="-2" android:layout_height="-2" android:text="0x7f0700fd" />
+    <ImageView android:layout_gravity="1" android:id="0x7f0f0149" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:src="0x7f020001" />
+    <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="0x7f0d0020" android:layout_gravity="1" android:id="0x7f0f014a" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="35dp" android:text="0x7f0700ee" />
+    <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="0x7f0d0020" android:layout_gravity="1" android:id="0x7f0f014b" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="6dp" android:text="0x7f0700ed" />
+    <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="0x7f0d0020" android:layout_gravity="1" android:id="0x7f0f014c" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="6dp" android:text="0x7f0700f0" />
+    <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="0x7f0d0020" android:layout_gravity="1" android:id="0x7f0f014d" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="6dp" android:text="0x7f0700ef" />
+    <Button android:textSize="22dp" android:textStyle="1" android:textColor="0x7f0d0033" android:layout_gravity="1" android:id="0x7f0f014e" android:background="0x7f0d0026" android:paddingLeft="20dp" android:paddingTop="10dp" android:paddingRight="20dp" android:paddingBottom="10dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="50dp" android:text="0x7f0700ec" />
+</LinearLayout>

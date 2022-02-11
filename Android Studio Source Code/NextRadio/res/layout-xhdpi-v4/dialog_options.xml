@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="1" android:orientation="1" android:id="@id/LinearLayout1" android:layout_width="-1" android:layout_height="-1">
+    <ListView android:layout_gravity="1" android:id="@id/listview" android:background="#ffffff" android:layout_width="288dp" android:layout_height="-1" />
+</LinearLayout>

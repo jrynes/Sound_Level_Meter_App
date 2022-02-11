@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item android:id="0x7f0f016d" android:orderInCategory="100" android:title="Settings" android:showAsAction="0" />
+    <item android:id="0x7f0f0170" android:title="Share Log" />
+</menu>

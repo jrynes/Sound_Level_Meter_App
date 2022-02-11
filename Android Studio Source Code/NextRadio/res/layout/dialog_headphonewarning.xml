@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:orientation="1" app:id="0x7f0f008e" app:background="0x106000d" app:layout_width="-1" app:layout_height="-1">
+    <com.nextradioapp.nextradio.views.FlipView app:layout_gravity="1" app:id="0x7f0f008f" app:padding="4dp" app:clickable="true" app:clipToPadding="false" app:layout_width="-1" app:layout_height="-2" app:checked="false" app:animationDuration="230" app:enableInitialAnimation="true" app:frontLayout="0x7f030025" app:rearLayout="0x7f030026" app:rearImageAnimationDelay="0" />
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2"
+        <LinearLayout android:orientation="0" android:id="0x7f0f0056" android:background="0x7f020031" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="10" android:id="0x7f0f0057" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:src="0x7f020014" />
+            <TextView android:textSize="15dp" android:textStyle="1" android:textColor="0x7f0d000d" android:ellipsize="3" android:layout_gravity="10" android:id="0x7f0f0058" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" android:text="Some Other Action" android:singleLine="true" android:layout_weight="1.0" />
+            <View android:background="#aaa" android:layout_width="1dp" android:layout_height="-1" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:layout_alignParentTop="true" android:layout_centerVertical="true" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:id="0x7f0f0059" android:background="0x7f020031" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="10" android:id="0x7f0f005a" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:src="0x7f020014" />
+            <TextView android:textSize="15dp" android:textStyle="1" android:textColor="0x7f0d000d" android:ellipsize="3" android:layout_gravity="10" android:id="0x7f0f005b" android:layout_width="0dp" android:layout_height="-2" android:layout_margin="10dp" android:text="Some" android:singleLine="true" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="#aaa" android:layout_width="-1" android:layout_height="1dp" android:layout_alignParentTop="true" android:layout_centerVertical="true" />
+</LinearLayout>

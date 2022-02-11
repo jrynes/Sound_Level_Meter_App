@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="drawable" name="back2" id="0x7f020000" />
+    <public type="drawable" name="down" id="0x7f020001" />
+    <public type="drawable" name="icon" id="0x7f020002" />
+    <public type="drawable" name="lcd2" id="0x7f020003" />
+    <public type="drawable" name="lcd4" id="0x7f020004" />
+    <public type="drawable" name="logo" id="0x7f020005" />
+    <public type="drawable" name="up" id="0x7f020006" />
+    <public type="layout" name="main" id="0x7f030000" />
+    <public type="string" name="hello" id="0x7f040000" />
+    <public type="string" name="app_name" id="0x7f040001" />
+    <public type="color" name="textColor" id="0x7f050000" />
+    <public type="color" name="backColor" id="0x7f050001" />
+    <public type="color" name="buttonText" id="0x7f050002" />
+    <public type="dimen" name="splTVlayourmargin" id="0x7f060000" />
+    <public type="dimen" name="splTVtextsize" id="0x7f060001" />
+    <public type="id" name="splModeTV" id="0x7f070000" />
+    <public type="id" name="splTV" id="0x7f070001" />
+    <public type="id" name="TableLayout01" id="0x7f070002" />
+    <public type="id" name="TableRow01" id="0x7f070003" />
+    <public type="id" name="splOnOffB" id="0x7f070004" />
+    <public type="id" name="splLogB" id="0x7f070005" />
+    <public type="id" name="splMaxB" id="0x7f070006" />
+    <public type="id" name="TableRow02" id="0x7f070007" />
+    <public type="id" name="splModeB" id="0x7f070008" />
+    <public type="id" name="Button03" id="0x7f070009" />
+    <public type="id" name="splCalibB" id="0x7f07000a" />
+    <public type="id" name="TableRow04" id="0x7f07000b" />
+    <public type="id" name="Button01" id="0x7f07000c" />
+    <public type="id" name="TableRow03" id="0x7f07000d" />
+    <public type="id" name="Button02" id="0x7f07000e" />
+    <public type="id" name="splCalibUpB" id="0x7f07000f" />
+    <public type="id" name="splCalibDownB" id="0x7f070010" />
+</resources>

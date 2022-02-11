@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView android:textColor="0x7f0d0006" android:ellipsize="4" android:id="0x1020014" android:background="0x7f0200ef" android:layout_width="-1" android:layout_height="?unknown_attr_ref: 101004d" android:text="List Item" android:singleLine="true" style="?unknown_attr_ref: 1010087" />

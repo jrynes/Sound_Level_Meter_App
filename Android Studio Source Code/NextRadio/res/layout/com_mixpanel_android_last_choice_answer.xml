@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mixpanel.android.surveys.SurveyChoiceView android:textColor="#ffffff" android:ellipsize="3" android:gravity="10" android:orientation="0" android:id="0x7f0f006f" android:background="0x7f020040" android:layout_width="-1" android:layout_height="-2" android:checkMark="0x7f02003e" android:maxLines="3" />

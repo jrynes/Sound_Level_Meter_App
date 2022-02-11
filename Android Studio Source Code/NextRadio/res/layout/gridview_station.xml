@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:baselineAligned="false">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_margin="4dp" android:baselineAligned="false">
+        <FrameLayout android:layout_width="-1" android:layout_height="-2">
+            <view android:id="0x7f0f00fd" android:background="#fff" android:layout_width="-1" android:layout_height="-1" class="com.nextradioapp.nextradio.views.Banner" />
+            <ImageView android:layout_gravity="35" android:id="0x7f0f0100" android:layout_width="-2" android:layout_height="-2" android:src="0x7f0200a1" />
+            <FrameLayout android:layout_gravity="53" android:background="#1111" android:layout_width="-1" android:layout_height="-2">
+                <TextView android:textSize="12dp" android:textColor="#eee" android:layout_gravity="51" android:id="0x7f0f00ff" android:layout_width="-2" android:layout_height="-2" android:text="New Text" android:maxLines="1" android:singleLine="true" />
+            </FrameLayout>
+        </FrameLayout>
+        <FrameLayout android:background="#000" android:layout_width="-1" android:layout_height="-1">
+            <TextView android:textSize="10dp" android:textColor="#aaa" android:layout_gravity="31" android:id="0x7f0f0101" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="4dp" android:layout_marginTop="2dp" android:layout_marginRight="4dp" android:layout_marginBottom="2dp" android:text="Medium Text" android:maxLines="1" android:singleLine="true" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

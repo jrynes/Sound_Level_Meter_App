@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="0x7f0f0125" android:background="#ff000000" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:layout_gravity="10" android:orientation="1" android:id="0x7f0f0126" android:visibility="0" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:layout_gravity="1" android:id="0x7f0f00b5" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="30dp" android:src="0x7f0200b0" />
+        <LinearLayout android:orientation="1" android:id="0x7f0f0127" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="25dp" android:layout_marginRight="25dp" android:layout_marginBottom="10dp">
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textStyle="1" android:textColor="#bebebe" android:gravity="1" android:id="0x7f0f0128" android:layout_width="-1" android:layout_height="-2" android:text="0x7f0700cc" />
+            <LinearLayout android:gravity="11" android:layout_gravity="1" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+                <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textStyle="1" android:textColor="#bebebe" android:layout_width="-2" android:layout_height="-2" android:text="0x7f0700cd" android:drawableRight="0x7f020009" android:drawablePadding="5dp" android:drawableEnd="0x7f020009" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="1" android:orientation="0" android:id="0x7f0f0129" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="25dp" android:layout_marginRight="25dp">
+            <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textStyle="1" android:textColor="#bebebe" android:id="0x7f0f012a" android:layout_width="-2" android:layout_height="-2" android:text="0x7f0700ce" />
+            <ImageView android:layout_gravity="10" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="6dp" android:src="0x7f020009" />
+        </LinearLayout>
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="#bebebe" android:gravity="1" android:layout_gravity="1" android:id="0x7f0f012b" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="25dp" android:layout_marginTop="15dp" android:layout_marginRight="25dp" android:layout_marginBottom="15dp" android:text="0x7f0700d0" />
+        <Button android:textAppearance="?unknown_attr_ref: 1010042" android:textStyle="1" android:textColor="0x7f0d0033" android:layout_gravity="1" android:id="0x7f0f012c" android:background="0x7f0200c7" android:visibility="0" android:layout_width="-1" android:layout_height="42dp" android:layout_marginLeft="50dp" android:layout_marginTop="15dp" android:layout_marginRight="50dp" android:text="0x7f0700cf" />
+        <Button android:textAppearance="?unknown_attr_ref: 1010042" android:textStyle="1" android:textColor="0x7f0d0033" android:layout_gravity="1" android:id="0x7f0f012d" android:background="0x7f0200c7" android:padding="5dp" android:visibility="2" android:layout_width="-1" android:layout_height="42dp" android:layout_marginLeft="50dp" android:layout_marginTop="20dp" android:layout_marginRight="50dp" android:text="0x7f0700ca" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="10" android:orientation="1" android:id="0x7f0f012e" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:layout_gravity="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="25dp" android:src="0x7f0200b0" />
+        <TextView android:textSize="26sp" android:textStyle="1" android:textColor="#bebebe" android:gravity="1" android:layout_width="-1" android:layout_height="-2" android:text="0x7f0700ce" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textStyle="3" android:textColor="#bebebe" android:gravity="1" android:layout_gravity="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:layout_marginBottom="15dp" android:text="0x7f0700c6" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="#bebebe" android:gravity="1" android:layout_gravity="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="25dp" android:layout_marginTop="5dp" android:layout_marginRight="25dp" android:layout_marginBottom="5dp" android:text="0x7f0700c8" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="#bebebe" android:gravity="1" android:layout_gravity="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="25dp" android:layout_marginTop="5dp" android:layout_marginRight="25dp" android:layout_marginBottom="5dp" android:text="0x7f0700cb" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textStyle="2" android:textColor="#bebebe" android:gravity="1" android:layout_gravity="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="25dp" android:layout_marginTop="5dp" android:layout_marginRight="25dp" android:text="0x7f0700c7" />
+    </LinearLayout>
+</FrameLayout>

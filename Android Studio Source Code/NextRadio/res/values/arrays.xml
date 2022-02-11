@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="devices_htc">
+        <item>m7wls</item>
+        <item>jewel</item>
+        <item>t6whl</item>
+        <item>htc_m8whl</item>
+        <item>zaracl</item>
+        <item>k2cl</item>
+        <item>m7spr</item>
+    </string-array>
+    <string-array name="devices_motorola">
+        <item>falcon_.*</item>
+        <item>peregrine</item>
+        <item>surnia_.*</item>
+        <item>condor_.*</item>
+    </string-array>
+    <string-array name="feed_back_types">
+        <item>station-feedback@nextradioapp.zendesk.com,I want to see what songs are playing on this station,Visual Station Request</item>
+        <item>station-feedback@nextradioapp.zendesk.com,I want to see info related to the current radio show, Visual Station Request</item>
+        <item>station-feedback@nextradioapp.zendesk.com,I have some questions or feedback, Feedback</item>
+        <item>love@nextradioapp.zendesk.com,I love this app!, I Love This!</item>
+    </string-array>
+    <string-array name="feedbacklabels">
+        <item>Send some love</item>
+        <item>Submit a bug</item>
+        <item>General feedback</item>
+    </string-array>
+    <string-array name="feedbackvalues">
+        <item>"love@nextradioapp.zendesk.com,I love this,What do you love about NextRadio?
+"</item>
+        <item>"bugs@nextradioapp.zendesk.com,I found a bug,What happened? Please provide as much detail as you can:
+"</item>
+        <item>"feedback@nextradioapp.zendesk.com,Feedback,What would you like us to know?
+"</item>
+    </string-array>
+    <string-array name="nav_more">
+        <item>Output to Speaker</item>
+        <item>Update Station List</item>
+        <item>Basic Tuner</item>
+        <item>Settings</item>
+        <item>Quit</item>
+    </string-array>
+    <string-array name="nav_radioGuide">
+        <item>My Favorites</item>
+        <item>Live View</item>
+        <item>Genre List</item>
+        <item>Frequency List</item>
+    </string-array>
+    <string-array name="nav_recentActivity">
+        <item>Bookmarks</item>
+        <item>History</item>
+        <item>Recently Played</item>
+    </string-array>
+    <string-array name="stations_spinner">
+        <item>My Favorites</item>
+        <item>On Air Now</item>
+        <item>Genre List</item>
+        <item>Frequency List</item>
+    </string-array>
+    <string-array name="stationupdatemodelabels">
+        <item>Automatic (default)</item>
+        <item>Ask me</item>
+        <item>Never (manual only)</item>
+    </string-array>
+    <string-array name="stationupdatemodevalues">
+        <item>auto</item>
+        <item>ask</item>
+        <item>never</item>
+    </string-array>
+    <string-array name="countries">
+        <item>United States</item>
+        <item>Brazil</item>
+        <item>Canada</item>
+        <item>Colombia</item>
+        <item>Mexico</item>
+        <item>Peru</item>
+        <item>Reset</item>
+    </string-array>
+    <string-array name="countries_values">
+        <item>US</item>
+        <item>BR</item>
+        <item>CA</item>
+        <item>CO</item>
+        <item>MX</item>
+        <item>PE</item>
+        <item>reset</item>
+    </string-array>
+    <string-array name="country_select_array">
+        <item>United States</item>
+        <item>Brazil</item>
+        <item>Canada</item>
+        <item>Colombia</item>
+        <item>Mexico</item>
+        <item>Peru</item>
+        <item>Other…</item>
+    </string-array>
+    <string-array name="country_select_array_iso_code">
+        <item>US</item>
+        <item>BR</item>
+        <item>CA</item>
+        <item>CO</item>
+        <item>MX</item>
+        <item>PE</item>
+    </string-array>
+    <string-array name="country_select_array_prefix">
+        <item>USA</item>
+        <item>BRA</item>
+        <item>CAN</item>
+        <item>COL</item>
+        <item>MEX</item>
+        <item>PER</item>
+        <item>Other…</item>
+    </string-array>
+    <string-array name="devices_blu">
+        <item>blu_studio_one</item>
+        <item>blu_vivo_5</item>
+    </string-array>
+</resources>

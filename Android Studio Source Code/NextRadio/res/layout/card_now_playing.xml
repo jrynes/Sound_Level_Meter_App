@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:baselineAligned="false"
+    <LinearLayout android:layout_gravity="1" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <FrameLayout android:layout_gravity="11" android:visibility="0" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="10dp">
+            <com.nextradioapp.nextradio.views.SquareView android:layout_gravity="1" android:id="0x7f0f0042" android:background="0x7f020022" android:layout_width="-2" android:layout_height="-2" android:src="0x7f020094" android:scaleType="6" />
+            <TextView android:textSize="80sp" android:textStyle="1" android:textColor="#eee" android:gravity="11" android:layout_gravity="11" android:id="0x7f0f0043" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="30dp" android:singleLine="true" />
+            <TextView android:textSize="30sp" android:textColor="#eee" android:gravity="11" android:layout_gravity="11" android:id="0x7f0f0044" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="90dp" android:singleLine="true" />
+            <FrameLayout android:layout_gravity="51" android:id="0x7f0f0045" android:visibility="2" android:layout_width="-2" android:layout_height="-2"
+                <FrameLayout android:layout_gravity="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp">
+                    <LinearLayout android:layout_gravity="800053" android:orientation="0" android:background="0x7f0200b1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp"
+                        <LinearLayout android:layout_gravity="800053" android:orientation="1" android:paddingLeft="10dp" android:paddingTop="8dp" android:paddingBottom="10dp" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+                            <TextView android:textSize="18sp" android:textStyle="1" android:textColor="#eee" android:ellipsize="3" android:id="0x7f0f0046" android:layout_width="-1" android:layout_height="-2" android:text="Title Goes Here Title Goes Here Title Goes Here Title Goes Here" android:maxLines="1" />
+                            <TextView android:textSize="15sp" android:textColor="#ddd" android:ellipsize="3" android:id="0x7f0f0047" android:layout_width="-1" android:layout_height="0dp" android:text="Available only at Target or other fine retailers across this great nation. More text goes here why make it stop?" android:maxLines="2" android:layout_weight="1.0" />
+                        </LinearLayout>
+                        <ImageView android:layout_gravity="10" android:id="0x7f0f0048" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="5dp" android:src="0x7f020019" />
+                    </LinearLayout>
+                </FrameLayout>
+            </FrameLayout>
+        </FrameLayout>
+        <LinearLayout android:orientation="0" android:id="0x7f0f0049" android:visibility="1" android:layout_width="-1" android:layout_height="-2" android:layout_margin="5dp" android:baselineAligned="true">
+            <ImageView android:layout_gravity="1" android:id="0x7f0f004a" android:padding="5dp" android:layout_width="-1" android:layout_height="-2" android:src="0x7f0200f8" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="1" android:id="0x7f0f004b" android:padding="5dp" android:layout_width="-1" android:layout_height="-2" android:src="0x7f0200e9" android:layout_weight="1.0" android:contentDescription="0x7f070042" />
+            <ImageView android:layout_gravity="1" android:id="0x7f0f004c" android:padding="5dp" android:layout_width="-1" android:layout_height="-2" android:src="0x7f0200f7" android:layout_weight="1.0" />
+        </LinearLayout>
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textStyle="1" android:textColor="0x7f0d0033" android:ellipsize="4" android:gravity="800003" android:layout_gravity="1" android:id="0x7f0f004d" android:focusable="true" android:focusableInTouchMode="true" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="3dp" android:maxLines="1" android:lines="1" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="-1" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="#ccc" android:ellipsize="3" android:gravity="800003" android:layout_gravity="1" android:id="0x7f0f004e" android:layout_width="-2" android:layout_height="-2" android:maxLines="2" android:singleLine="true" />
+    </LinearLayout>
+    <Button android:textSize="15sp" android:textStyle="1" android:textColor="#fff" android:layout_gravity="1" android:id="0x7f0f004f" android:background="0x7f0200c7" android:paddingLeft="30sp" android:paddingTop="5dp" android:paddingRight="30sp" android:paddingBottom="5dp" android:visibility="1" android:layout_width="-2" android:layout_height="34dp" android:layout_marginLeft="5dp" android:layout_marginTop="10dp" android:layout_marginRight="5dp" android:singleLine="true" />
+    <LinearLayout android:layout_gravity="1" android:orientation="1" android:id="0x7f0f0050" android:paddingLeft="0x7f0c0002" android:paddingRight="0x7f0c0002" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp"
+        <LinearLayout android:layout_gravity="1" android:orientation="1" android:id="0x7f0f0051" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="15dp" /> /> />

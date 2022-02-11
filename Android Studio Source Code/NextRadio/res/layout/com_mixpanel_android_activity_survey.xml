@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="0x7f0f0069" android:padding="20dp" android:visibility="2" android:clickable="true" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:orientation="0" android:clickable="true" android:layout_width="-1" android:layout_height="-2">
+        <ImageButton android:id="0x7f0f006a" android:background="0x7f020037" android:clickable="true" android:layout_width="35dp" android:layout_height="44dp" android:layout_alignParentLeft="true" android:onClick="goToPreviousQuestion" android:contentDescription="0x7f07010a" />
+        <TextView android:textSize="20dp" android:textColor="#ffffff" android:id="0x7f0f006b" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true" />
+        <ImageButton android:id="0x7f0f006c" android:background="0x7f02003b" android:clickable="true" android:layout_width="35dp" android:layout_height="44dp" android:layout_alignParentRight="true" android:onClick="goToNextQuestion" android:contentDescription="0x7f070107" />
+    </RelativeLayout>
+    <com.mixpanel.android.surveys.CardCarouselLayout android:layout_gravity="11" android:orientation="1" android:id="0x7f0f006d" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0" />
+    <RelativeLayout android:paddingTop="10dp" android:layout_width="-1" android:layout_height="40dp">
+        <ImageView android:layout_width="-2" android:layout_height="25dp" android:src="0x7f020053" android:scaleType="2" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:contentDescription="0x7f070106" />
+        <com.mixpanel.android.surveys.FadeOnPressButton android:textSize="20dp" android:textColor="#ffffff" android:gravity="15" android:id="0x7f0f006e" android:background="0x106000d" android:paddingBottom="0dp" android:clickable="true" android:layout_width="-2" android:layout_height="30dp" android:layout_marginBottom="3dp" android:text="0x7f070105" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:onClick="completeSurvey" />
+    </RelativeLayout>
+</LinearLayout>

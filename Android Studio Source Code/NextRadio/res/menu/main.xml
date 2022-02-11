@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item app:id="0x7f0f016e" app:visible="false" app:showAsAction="2" app:actionViewClass="com.nextradioapp.nextradio.views.NowPlayingTextView" />
+    <item app:id="0x7f0f016f" app:visible="true" app:showAsAction="2" app:actionViewClass="com.nextradioapp.nextradio.views.NowPlayingTextView" />
+</menu>

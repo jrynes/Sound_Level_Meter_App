@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="0x7f0700af">
+    <Preference android:title="0x7f0700ad" android:key="sendUsLove" android:summary="0x7f0700ae" />
+    <Preference android:title="0x7f0700b0" android:key="supportFeedback" android:summary="0x7f0700b1" />
+    <Preference android:title="0x7f0700bd" android:key="btnShowTutorial" android:summary="0x7f0700b5" />
+    <Preference android:title="0x7f0700b8" android:key="btnViewEULA" android:summary="0x7f0700b7" />
+    <Preference android:title="0x7f0700bc" android:key="btnViewPrivacy" android:summary="0x7f0700bb" />
+    <Preference android:title="0x7f0700b9" android:key="btnViewFAQ" android:summary="0x7f0700ba" />
+    <Preference android:title="0x7f0700a4" android:key="developer_options" android:summary="0x7f0700a5" />
+    <Preference android:key="lblVersionNumber" />
+    <CheckBoxPreference android:title="0x7f0700a9" android:key="notifications" android:defaultValue="true" android:summaryOn="0x7f0700ab" android:summaryOff="0x7f0700aa" />
+    <Preference android:enabled="true" android:title="0x7f0700a7" android:key="screenInterface" />
+</PreferenceScreen>

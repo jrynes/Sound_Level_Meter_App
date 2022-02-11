@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="0x7f0d0022" android:layout_width="-1" android:layout_height="-1">
+    <GridView android:id="0x7f0f00f5" android:layout_width="-2" android:layout_height="-1" android:layout_marginTop="9dp" android:numColumns="0x7f0a0000" />
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+        <View android:id="0x7f0f00c7" android:background="0x7f0d0026" android:layout_width="-1" android:layout_height="5dp" android:layout_alignParentTop="true" android:layout_centerVertical="true" />
+        <ImageView android:id="0x7f0f00f6" android:layout_width="-1" android:layout_height="-2" android:src="0x7f02001e" android:scaleType="1" />
+    </LinearLayout>
+    <LinearLayout android:gravity="11" android:orientation="1" android:id="0x7f0f0050" android:visibility="0" android:layout_width="-1" android:layout_height="-1">
+        <TextView android:textSize="15dp" android:textColor="#fff" android:gravity="1" android:layout_gravity="1" android:id="0x7f0f00f7" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="40dp" android:layout_marginRight="40dp" android:text="EMPTY MESSAGE" />
+        <Button android:textSize="16dp" android:textStyle="1" android:textColor="#fff" android:layout_gravity="1" android:id="0x7f0f00f8" android:background="0x7f0200c6" android:paddingLeft="3dp" android:paddingRight="3dp" android:visibility="2" android:layout_width="176dp" android:layout_height="33.6667dp" android:layout_marginTop="14dp" android:text="UPDATE STATIONS" android:singleLine="true" />
+    </LinearLayout>
+</FrameLayout>

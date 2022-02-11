@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:enabled="true" android:title="0x7f0700af" android:key="screenInterface">
+    <CheckBoxPreference android:title="0x7f0700ac" android:key="useFavoritesForSeek" android:defaultValue="false" android:summaryOn="0x7f0700a8" android:summaryOff="0x7f0700a8" />
+</PreferenceScreen>
